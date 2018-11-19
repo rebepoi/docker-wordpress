@@ -7,6 +7,6 @@ You will need [docker](https://docs.docker.com/install/) and [docker compose](ht
 Create docker hub account and in commandline login to hub `docker login` with your credentials.
 
 # Start up your WordPress
-Clone repo and do your changes in docker-compose.yml file, e.g. change port numbers (first one) or in uploads.ini file change upload_max_filesize.
+Clone repo and do your changes in docker-compose.yml file, e.g. change port numbers or in uploads.ini file change upload_max_filesize.
 Then you can just hit `docker-compose up -d` and docker dose rest.
 After docker is done you can finalize your WordPress install from `localhost:8080` or what ever port you change in place on 8080 same goes with MariaDB 8081 port.
