@@ -1,6 +1,6 @@
 # What do we have here?
-Using this setup you can setup wordpress running with MariaDB, PHP7 on your own computer or on server, software will run from port 8080 and database port 8081 you can change these in docker-compose.yml file if you like. Additionaly there's uploads.yml where you can setup e.g. upload_max_filesize. 
-Docker will create wordpress folder volume(if not allready there), so changes you make there will be effected wordpress running in container.
+Using this setup you can setup wordpress running with MariaDB, PHP7 on your own computer or on server, software will run from port 8080 and database port 8081 you can change these in `docker-compose.yml` file if you like. Additionaly there's uploads.yml where you can setup e.g. `upload_max_filesize`.
+Docker will create wordpress folder volume(if not already there), so changes you make there will be effected wordpress running in container.
 
 # Prerequisite
 You will need [docker](https://docs.docker.com/install/) and [docker compose](https://docs.docker.com/compose/install/) installed on your system.
